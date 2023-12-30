@@ -16,5 +16,5 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.ftp_password }}
-          local-dir: /Users/reinaooka/Documents/www.ookapharmcy.com/wp-content/themes/
+          local-dir: ./www.ookapharmcy.com/wp-content/themes/
           server-dir: /home/ookapharmcy/www/www.ookapharmcy.com/wp-content/themes/
